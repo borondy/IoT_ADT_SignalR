@@ -1,0 +1,14 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:workspace;1",
+  "@type": "Interface",
+  "displayName": "workspace",
+  "extends": ["dtmi:com:example:space;1"],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "isAvailable",
+      "schema": "boolean"
+    }
+  ]
+}

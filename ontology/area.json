@@ -1,0 +1,8 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:area;1",
+  "@type": "Interface",
+  "displayName": "area",
+  "extends": ["dtmi:com:example:openSpace;1"],
+  "contents": []
+}

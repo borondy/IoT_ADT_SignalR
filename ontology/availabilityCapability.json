@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:availabilityCapability;1",
+  "@type": "Interface",
+  "displayName": "availabilityCapability",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "isAvailable",
+      "schema": "boolean"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:openSpace;1",
+  "@type": "Interface",
+  "displayName": "openSpace",
+  "extends": ["dtmi:com:example:space;1"],
+  "contents": []
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:temperatureSensor;1",
+  "@type": "Interface",
+  "extends": ["dtmi:com:example:sensor;1"],
+  "displayName": "temperatureSensor",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "temperatureInDegreeCelsius",
+      "schema": "double"
+    }
+  ]
+}

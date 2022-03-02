@@ -1,0 +1,8 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:camera;1",
+  "@type": "Interface",
+  "displayName": "camera",
+  "extends": ["dtmi:com:example:sensor;1"],
+  "contents": []
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:sensor;1",
+  "@type": "Interface",
+  "displayName": "sensor",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "lastReadingTime",
+      "schema": "dateTime"
+    },
+    {
+      "@type": "Relationship",
+      "name": "serves"
+    }
+  ]
+}

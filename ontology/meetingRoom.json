@@ -1,0 +1,21 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:meetingRoom;1",
+  "@type": "Interface",
+  "displayName": "meetingRoom",
+  "extends": [
+    "dtmi:com:example:space;1"
+  ],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "peopleCapacity",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "peopleIn",
+      "schema": "integer"
+    }
+  ]
+}

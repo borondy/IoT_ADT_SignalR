@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ehConnectionString": "",
+    "sendMessageBackendURL": "https://localhost:7012/Message/messages",
+    "iotHubConnectionString": "",
+    "adtUrl": "https://...",
+    "azureAdTenantId": ""
+  }
+}
